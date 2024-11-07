@@ -1,0 +1,59 @@
+.bg-container{
+    background-color: #f4f7f9f5;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px #c3bbbb;
+   
+}
+.title{
+    color: black;
+    font-weight: 300;
+    opacity: 0.4;
+}
+.input-style{
+    background-color: transparent;
+    border-radius: 8px 8px 0px 0px;
+    color:black;
+    opacity: 0.6;
+}
+.input-style:focus{
+    box-shadow: none;
+    border-color: rgb(174, 174, 174);
+    background-color: transparent;
+}
+.input-style::placeholder{
+    opacity: 0.6;
+}
+.bg-list{
+    background-color: #f4f7f9f5;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    color:#c3bbbb
+}
+.bg-list-child{
+    background-color: #f4f7f9f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(145, 144, 144);
+}
+.trash-i{
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    cursor: pointer; 
+}
+.list-group-item:hover .trash-i {
+    opacity: 1; 
+}
+.total-items{
+    font-size: 9px;
+    font-weight: 500;
+    color:rgb(145, 144, 144);
+    margin-right: auto;
+    padding: 4px 0 4px 0;
+}
+.total-item-txt{
+    margin-left: 4px;
+    padding: 0;
+}
